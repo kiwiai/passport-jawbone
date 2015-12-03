@@ -14,14 +14,14 @@ This module authenticates Jawbone in a Node.js [Express](http://expressjs.com/) 
 
 #### Configure Strategy
 
-The Fitbit OAuth 2.0 authentication strategy requires a `verify` callback, which
+The Jawbone UP OAuth 2.0 authentication strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
 ```
 var JawboneStrategy = require('passport-jawbone').Strategy;
 
-passport.use(new FitbitStrategy({
+passport.use(new JawboneStrategy({
     clientID     : JAWBONE_CLIENT_ID,
     clientSecret : JAWBONE_CLIENT_SECRET,
     callbackURL  : CALLBACK_URL,
