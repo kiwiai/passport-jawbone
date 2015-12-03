@@ -1,7 +1,7 @@
 # Passport strategy for Jawbone UP OAuth 2.0
 
 [Passport](http://passportjs.org/) strategies for authenticating with [Jawbone](https://jawbone.com/up)
-using ONLY OAuth 2.0.
+using OAuth 2.0.
 
 This module authenticates Jawbone in a Node.js [Express](http://expressjs.com/) server applications. 
 
