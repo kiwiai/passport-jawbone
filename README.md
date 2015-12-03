@@ -35,10 +35,10 @@ passport.use(new JawboneStrategy({
 ));
 ```
 
-#### Authenticate Requests
+#### Authorize Requests
 
-Use `passport.authenticate()`, specifying the `'jawbbone'` strategy, to
-authenticate requests.
+Use `passport.authorize()`, specifying the `'jawbbone'` strategy, to
+authorize requests.
 
 For example, as route middleware in an [Express](http://expressjs.com/)
 application:
