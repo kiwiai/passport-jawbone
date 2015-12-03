@@ -16,7 +16,7 @@ This module authenticates Jawbone in a Node.js [Express](http://expressjs.com/) 
 
 The Jawbone UP OAuth 2.0 authentication strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
-`options` specifying a client ID, client secret, and callback URL.
+`profile` specifying a client ID, client secret, and callback URL.
 
 ```
 var JawboneStrategy = require('passport-jawbone').Strategy;
