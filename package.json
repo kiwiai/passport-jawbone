@@ -1,6 +1,6 @@
 {
   "name": "passport-jawbone",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Passport strategy for authenticating with Jawbone UP using the OAuth 2.0 ",
   "main": "./lib/passport-jawbone",
   "dependencies": {
