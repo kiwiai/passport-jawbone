@@ -51,7 +51,7 @@ app.get('/auth/jawbone/callback',
 		    scope: ['move_read'],
 		    failureRedirect: '/auth/jawbone/failure'
 		  }), function(req, res) {
-		    res.redirect('/profile');
+		    res.redirect('/auth/jawbone/success');
 		  }
 		);
 ```
